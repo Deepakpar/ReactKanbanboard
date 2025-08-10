@@ -40,7 +40,6 @@ export default function Board() {
       <div className="max-w-6xl mx-auto">
         <header className="flex items-center justify-between mb-4">
           <h1 className="text-2xl font-bold">Kanban Board</h1>
-          <div className="text-sm text-gray-600">Local • dnd-kit • Tailwind</div>
         </header>
 
         <TaskForm onSubmit={addTask} />

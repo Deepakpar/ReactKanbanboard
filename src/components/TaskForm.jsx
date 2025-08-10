@@ -18,7 +18,7 @@ export default function TaskForm({ onSubmit }) {
     <form onSubmit={submit} className="mb-4 grid gap-2 md:grid-cols-4">
       <input className="border rounded px-3 py-2 md:col-span-1" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} />
       <input className="border rounded px-3 py-2 md:col-span-1" placeholder="Short description" value={description} onChange={(e) => setDescription(e.target.value)} />
-      <input className="border rounded px-3 py-2 md:col-span-1" placeholder="tags (comma)" value={tags} onChange={(e) => setTags(e.target.value)} />
+      <input className="border rounded px-3 py-2 md:col-span-1" placeholder="tags" value={tags} onChange={(e) => setTags(e.target.value)} />
       <div className="flex gap-2 items-center md:col-span-1">
         <select value={priority} onChange={e => setPriority(e.target.value)} className="border rounded px-2 py-2">
           <option>Low</option>
