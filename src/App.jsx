@@ -1,14 +1,13 @@
-import React from 'react'
+import React from "react";
 
-function App() {
+
+import { TaskProvider } from "./context/TaskContext";
+import Board from "./Pages/Board";
+
+export default function App() {
   return (
-    <div>App
-       <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-
-    </div>
-  )
+    <TaskProvider>
+      <Board />
+    </TaskProvider>
+  );
 }
-
-export default App
