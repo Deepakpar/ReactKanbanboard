@@ -7,8 +7,8 @@ import TaskDragOverlay from "../components/TaskDragOverlay";
 
 import { DndContext, DragOverlay } from "@dnd-kit/core";
 import useDnDSensors from "../components/DnDSensors";
-import TaskForm from "../Components/TaskForm";
-import Column from "../Components/Column";
+import TaskForm from "../components/TaskForm";
+import Column from "../components/Column";
 
 
 export default function Board() {
