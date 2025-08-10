@@ -6,7 +6,7 @@ import TaskModal from "../components/TaskModal";
 import TaskDragOverlay from "../components/TaskDragOverlay";
 
 import { DndContext, DragOverlay } from "@dnd-kit/core";
-import useDnDSensors from "../components/DNDsensors";
+import useDnDSensors from "../components/DnDSensors";
 import TaskForm from "../Components/TaskForm";
 import Column from "../Components/Column";
 
